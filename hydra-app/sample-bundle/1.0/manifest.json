@@ -5,8 +5,8 @@
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"
     },
-	"env": { 
-		"SAMPLE": "hello"
-	} 
+    "env": { 
+       "SAMPLE": "hello"
+    }, 
     "aliases": ["sample", "sample-bundle"]
 }
