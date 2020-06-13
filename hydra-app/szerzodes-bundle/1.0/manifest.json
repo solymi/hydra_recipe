@@ -1,0 +1,12 @@
+{
+    "bundles": {
+        "HydraApp\\SzerzodesBundle": ["all"]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": { 
+       "SAMPLE": "hello"
+    }, 
+    "aliases": ["sample", "szerzodes-bundle"]
+}

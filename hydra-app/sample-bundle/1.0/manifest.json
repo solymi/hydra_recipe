@@ -1,9 +1,0 @@
-{
-    "bundles": {
-        "HydraApp\\SampleBundle": ["all"]
-    },
-    "copy-from-recipe": {
-        "config/": "%CONFIG_DIR%/"
-    },
-    "aliases": ["sample"]
-}
