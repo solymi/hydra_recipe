@@ -1,12 +1,12 @@
 {
     "bundles": {
-        "HydraApp\\PartnerBundle": ["all"]
+        "HydraApp\\PartnerBundle\\PartnerBundle": ["all"]
     },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%/"
     },
-    "env": { 
-       "SAMPLE": "hello"
+    "env": {
+        "PARTNER_BUNDLE": "dev-master"
     }, 
     "aliases": ["partner", "partner-bundle"]
 }
