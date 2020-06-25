@@ -1,0 +1,4 @@
+partner_bundle:
+    # loads routes from the YAML, XML or PHP files found in some bundle directory
+    resource: '@PartnerBundle/Controller'
+    type:     annotation
